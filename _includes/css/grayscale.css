@@ -1,3 +1,185 @@
+/* Add new css here */
+section#wwa {
+    color: #fff !important;
+    background: linear-gradient(#fdcc52,#fdc539) !important;
+	padding: 100px 0;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.col-xs-12.wwa-text {
+    text-align: center;
+    width: 100%;
+}
+
+hr.hr-cng {
+    max-width: 100px;
+    margin: 25px auto 25px;
+}
+
+section#wwd {
+    background-color: #fff;
+    color: #000000;
+    padding: 100px 0;
+}
+
+.material-icons {
+    font-size: 100px!important;
+}
+
+.row.wwd {
+    #padding-top: 5%;
+    #padding-bottom: 5%;
+    text-align: center;
+}
+.col-lg-4 {
+    margin: 5% 0;
+    /* padding: 10% 0; */
+}
+
+.btn-outline {
+    color: #2a2727;
+    border: solid 1px #2a2727;
+	background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    border: solid 1px #18bc9c;
+    color: #18bc9c;
+    background: #fff;
+}
+
+section#blog {
+    background-color: #d9edf7;
+	color: #000;
+    padding: 100px 0;	
+}
+
+#contact {
+    background-color: #fff;
+	padding: 100px 0;
+	color: #000000;
+}
+
+section#contact {
+	width: 100%;
+    padding: 50px 0;
+    color: #000;
+	padding: 100px 0;
+}
+
+footer {
+    padding: 100px 0;
+    background-color: black;
+}
+
+.footer-big {
+    padding-top: 30px;
+}
+
+.footer-color-black, .footer-transparent {
+    background-color: rgba(30, 30, 30, 0.97);
+    color: #DDDDDD;
+}
+
+.row.addmore {
+    padding: 50px!important;
+}
+
+
+.footer-big .copyright {
+    margin: 10px 0px 20px;
+}
+
+.footer .copyright {
+    color: #777777;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer-big .container > hr {
+    margin-top: 50px;
+}
+
+.footer-big hr {
+    margin-bottom: 10px;
+}
+
+.footer-color-black hr, .footer-transparent hr {
+    border-color: #444444;
+}
+
+.footer-big nav > ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.footer-color-black .btn-social, .footer-transparent .btn-social {
+    color: #777777;
+}
+
+.footer-color-black .title, .footer-transparent .title {
+    color: #DDDDDD;
+}
+
+.footer-color-black nav > ul a:hover, .footer-color-black nav > ul a:focus, .footer-transparent nav > ul a:hover, .footer-transparent nav > ul a:focus {
+    color: #fff;
+}
+
+h5 {
+    padding-top: 30px;
+}
+.ofc3 {
+    color: #777777;
+}
+
+.ofc3:hover {
+    color: #fff;
+}
+
+.mi-ft {
+	font-size: 15px;
+}
+
+body p {
+	font-size: 16px;
+}
+
+section#contact {
+    background: url(/img/off-1.jpeg) no-repeat center center fixed;
+	background-size: 100%, cover;
+	color: #fff;
+	text-align: center;
+	
+}
+
+.btn-outline {
+    color: #fcf8e3;
+    border: solid 1px #fcf8e3;
+}
+
+@media (max-width: 768px) {
+.info {
+    text-align: center;
+    margin-top: 25px;
+	}
+}
+
+
+
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -9,7 +191,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: {{ site.color.primary-dark }};
+    #background-color: {{ site.color.primary-dark }};
 }
 
 html {
@@ -123,7 +305,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: {{ site.color.primary-dark }};
+        background-color: {{ site.color.nav_color }};
     }
 
     .navbar-custom.top-nav-collapse {
@@ -166,11 +348,11 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 40px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 18px;
     }
 }
 
@@ -255,8 +437,8 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    color: #000;
+    #background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
