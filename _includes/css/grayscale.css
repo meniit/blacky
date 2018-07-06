@@ -160,7 +160,7 @@ body p {
 
 section#contact {
     background: url(/img/off-1.jpeg) no-repeat center center fixed;
-	background-size: 100%, cover;
+	background-size: cover;
 	color: #fff;
 	text-align: center;
 	
