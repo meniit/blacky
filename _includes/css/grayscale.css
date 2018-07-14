@@ -8,7 +8,7 @@ section#wwa {
 section h2 {
     margin: 0;
     font-size: 3em;
-}
+	}
 
 .col-xs-12.wwa-text {
     text-align: center;
@@ -41,16 +41,16 @@ section#wwd {
 }
 
 .btn-outline {
-    color: #2a2727;
-    border: solid 1px #2a2727;
+    color: #2a2727 !important;
+    border: solid 1px #2a2727 !important;
 	background: 0 0;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out !important;
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-    border: solid 1px #18bc9c;
-    color: #18bc9c;
-    background: #fff;
+    border: solid 1px #18bc9c !important;
+    color: #18bc9c !important;
+    background: #fff !important;
 }
 
 section#blog {
@@ -160,7 +160,7 @@ body p {
 
 section#contact {
     background: url(/img/off-1.jpeg) no-repeat center center fixed;
-	background-size: cover, 100%;
+	background-size: cover 100%;
 	color: #fff;
 	text-align: center;
 	
@@ -170,6 +170,15 @@ section#contact {
     color: #fcf8e3;
     border: solid 1px #fcf8e3;
 }
+
+a.btn.btn-outline1.btn-xl.js-scroll-trigger {
+    color: #fcf8e3 !important;
+    border: solid 2px #fcf8e3 !important;
+    background: 0 0;
+    transition: all .3s ease-in-out !important;
+}
+
+
 
 @media (max-width: 768px) {
 .info {
@@ -477,17 +486,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid {{ site.color.links }};
-    color: {{ site.color.links }};
+    border: 1px solid #fff;
+    color: #000;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid {{ site.color.links }};
+    border: 1px solid #ffffff;
     outline: 0;
-    color: {{ site.color.primary-dark }};
-    background-color: {{ site.color.links }};
+    color: #fff;
+    background-color: #13c716;
 }
 
 ul.banner-social-buttons {
